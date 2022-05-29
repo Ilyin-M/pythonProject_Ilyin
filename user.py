@@ -11,11 +11,9 @@ def check_password(login, password):
         print('Данного пользователя не существует. Пройдите регистрацию.')
         return False
 
-
 class Basket:
     def __init__(self):
         self.list_of_items = []
-
 
 class User:
     def __init__(self, login: str, password: str):
